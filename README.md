@@ -1,12 +1,15 @@
 # DOTA2的处刑BOT
 
 ## 介绍
+本项目重构自 https://github.com/Inv0k3r/DOTA2_Bot 
 
 因为最近在学python的async，所以就用async重构了一下代码。
 
 顺便添加了两个小功能，都可以在config选择开启或关闭。
-①ENABLE_SEND_GOOD_MESSAGE_ONLY 报喜不报忧模式，开启后当玩家赢得比赛并carry全场时，不会发送此场战报
-②ENABLE_USE_STEAM_NICKNAME 使用steam里的昵称，关闭后在发送steam状态监视消息时，会使用配置在config里的昵称（此功能不会影响dota2战报消息）
+①ENABLE_SEND_GOOD_MESSAGE_ONLY 报喜不报忧模式
+- 开启后当玩家赢得比赛并carry全场时，不会发送此场战报
+②ENABLE_USE_STEAM_NICKNAME 使用steam里的昵称
+- 关闭后在发送steam状态监视消息时，会使用配置在config里的昵称（此功能不会影响dota2战报消息）
 
 ------------------------------- 以下为以前的README文件 -------------------------------
 
